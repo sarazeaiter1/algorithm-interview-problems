@@ -1,0 +1,15 @@
+{
+  "name": "algorithm-interview-problems",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "dev": "nodemon --config nodemon.json",
+    "dev:debug": "nodemon --config nodemon.json --inspect-brk"
+  }
+}
